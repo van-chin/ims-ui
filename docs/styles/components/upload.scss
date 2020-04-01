@@ -1,0 +1,76 @@
+.ims-upload {
+  //border: 1px solid red;
+  //height: 100px;
+  //width: 100px;
+
+  .el-upload--picture-card {
+    width: 100px;
+    height: 100px;
+    line-height: 98px;
+  }
+
+  .file-list {
+    padding-inline-start: 0;
+    list-style: none;
+    .item {
+      float: left;
+      width: 100px;
+      height: 100px;
+      position: relative;
+      border-radius: 5px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      text-align: center;
+      &:hover {
+        .cover {
+          opacity: 1;
+        }
+      }
+      .cover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        top: 0;
+        left: 0;
+        cursor: default;
+        text-align: center;
+        color: #fff;
+        opacity: 0;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, .5);
+        transition: opacity .3s;
+
+        .action {
+          margin-right: 5px;
+          cursor: pointer;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+
+        .delete {
+          &:hover {
+            color: red;
+          }
+        }
+
+        &:after {
+          display: inline-block;
+          content: "";
+          height: 100%;
+          vertical-align: middle;
+        }
+
+        //display: none;
+      }
+
+      img {
+        border-radius: 5px;
+        width: 100px;
+        height: 100px;
+        border: 1px solid #f1f3f7;
+      }
+    }
+  }
+}

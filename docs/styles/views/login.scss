@@ -1,0 +1,31 @@
+.ims-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .ims-login-wrap {
+    width: 300px;
+  }
+  .ims-login-header {
+    text-align: center;
+    margin-bottom: 20px;
+    h1 {
+      margin-bottom: 10px;
+      font-weight: 300;
+      font-size: 30px;
+      color: #17233d;
+    }
+    p {
+      color: #808695;
+      font-weight: 300;
+    }
+  }
+  .ims-login-body {
+
+  }
+  .ims-login-forget-password {
+    float: right;
+    margin-right: 0;
+    cursor: pointer;
+  }
+}

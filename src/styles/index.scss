@@ -1,0 +1,20 @@
+.ims-app {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+@import "common/var";
+@import "components/layout";
+@import "components/header";
+@import "components/aside-menu";
+@import "components/horizontal-tab-bar";
+@import "components/footer";
+@import "components/split";
+@import "components/upload";
+
+@import "views/index";

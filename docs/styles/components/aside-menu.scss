@@ -1,0 +1,28 @@
+.aside-menu-vertical-popper {
+  .el-menu-item {
+    height: 40px;
+    line-height: 40px;
+  }
+}
+
+
+.ims-asider-menu {
+  //.bs-content {
+  //  //min-height: 60px;
+  //}
+  overflow: hidden;
+  //flex: 1;
+  height: 100%;
+  .el-menu-vertical-demo {
+    border-right: none;
+    .el-submenu__title {
+      height: 40px;
+      line-height: 40px;
+    }
+    .el-menu-item {
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+
+}

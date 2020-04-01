@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <ims-button text="abc"></ims-button>
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
@@ -120,9 +121,16 @@
 
 <script lang="ts">
 import Vue from "vue";
+// import ImsButton from "@ims-ui/button";
+
+// console.info(ImsButton);
 
 export default Vue.extend({
   name: "HelloWorld",
+  components: {
+    // ImsButton
+    // ImsButton: ImsButton
+  },
   props: {
     msg: String
   }

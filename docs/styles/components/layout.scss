@@ -1,0 +1,54 @@
+.ims-layout {
+  height: 100vh;
+  .ims-layout-main {
+
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    .ims-layout-main-content {
+      height: 100%;
+      padding-right: 15px;
+      //background: #ccc;
+      width: 100%;
+      //width: calc(100vw - 200px);
+      overflow-x: hidden;
+      overflow-y: auto;
+
+      .transition-wrapper {
+        padding: 10px 15px 10px 15px;
+      }
+
+    }
+    .better-scroll-wrapper {
+      //height: 2000px;
+      //background: gray;
+      //border: 1px solid green;
+      //margin: 20px;
+      //padding: 20px;
+      //overflow: hidden;
+      //height: 100%;
+      //.better-scroll-content {
+      //  padding: 10px 0;
+      //}
+    }
+  }
+  .ims-aside {
+    background-color: #191a23;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    .ims-asider-logo {
+      color: #fff;
+      cursor: pointer;
+      height: 60px;
+      line-height: 60px;
+      vertical-align: middle;
+      text-align: center;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+      background: #191a23;
+    }
+
+  }
+
+}
